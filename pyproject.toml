@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hello-world"
+version = "0.1.0"
+description = "Simple Python hello world project"
+authors = ["AI Assistant <assistant@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
