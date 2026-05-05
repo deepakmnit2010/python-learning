@@ -5,7 +5,7 @@ def say_hello() -> str:
 def try_continue():
     a = 0
     b = 2
-    while a < 4:
+    while a < 3:
         
         a += 1
         b -= 1
